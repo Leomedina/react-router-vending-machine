@@ -1,0 +1,9 @@
+body {
+  background-image: url(https://i.imgur.com/dP2YU6Y.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.items {
+  background-color: rgb(255, 255, 255, 0.65);
+}
