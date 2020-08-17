@@ -9,13 +9,13 @@ const VendingMachine = () => {
       <div class="items">
         <h1>Available Items</h1>
         <p>
-          <Link to="/nuka">Nuka-Cola</Link>
+          <Link exact to="/nuka">Nuka-Cola</Link>
         </p>
         <p>
-          <Link to="/crisps">Crisps</Link>
+          <Link exact to="/crisps">Crisps</Link>
         </p>
         <p>
-          <Link to="/chocolate">Chocolate</Link>
+          <Link exact to="/chocolate">Chocolate</Link>
         </p>
       </div>
       </div>
