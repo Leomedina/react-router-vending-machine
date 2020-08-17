@@ -7,3 +7,29 @@ body {
 .items {
   background-color: rgb(255, 255, 255, 0.65);
 }
+
+.nuka {
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/01/24/236405/b427bf02551afaa679f75124bba1d70d-700.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 50vh;
+}
+
+.crisps {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/51JUTnoZnaL._SX425_.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 50vh;
+}
+.chocolate {
+  background-image: url(https://mk0celticclothif70ot.kinstacdn.com/wp-content/uploads/2016/11/Irish-Whiskey-Chocolate-Bars-1001.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 50vh;
+}
+
+* {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 800;
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
+import Nuka from './Nuka';
+import Crisps from './Crisps';
+import Chocolate from './Chocolate';
 import './styles/App.css';
 
 function App() {
@@ -11,14 +14,14 @@ function App() {
           <VendingMachine />
         </Route>
         <Route exact path="/nuka">
-          <NukaCola />
+          <Nuka />
         </Route>
-        <Route exact path='/krisp'>
-          <Krisp />
+        <Route exact path='/crisps'>
+          <Crisps />
         </Route>
         <Route exact path="/chocolate">
           <Chocolate />
-        </Route>
+        </Route> 
       </BrowserRouter>
     </div>
   );
