@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Chocolate = () => {
   //adding a comment to test ssh connection on github
+  //adding more changes
   return (
     <div>
       <h1>ENJOY</h1>
